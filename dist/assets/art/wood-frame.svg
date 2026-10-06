@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <defs>
+    <pattern id="grain" width="140" height="24" patternUnits="userSpaceOnUse">
+      <rect width="140" height="24" fill="#8b5c38"/>
+      <path d="M0 3C25 1 43 6 72 3S117 1 140 4M0 10C34 8 47 14 79 10S116 8 140 11M0 18C27 20 51 16 82 18S120 21 140 18" fill="none" stroke="#b6814c" stroke-width="1.1" opacity=".7"/>
+      <path d="M0 6C20 8 49 4 74 6S113 10 140 7M0 14C27 12 55 17 82 14S111 12 140 15M0 22C33 20 52 24 83 22S112 20 140 22" fill="none" stroke="#593a26" stroke-width=".65" opacity=".8"/>
+    </pattern>
+    <pattern id="vertical" href="#grain" patternTransform="rotate(90)"/>
+    <linearGradient id="bevel" x2="0" y2="1"><stop stop-color="#edc38b" stop-opacity=".35"/><stop offset=".55" stop-color="#a56c3b" stop-opacity="0"/><stop offset="1" stop-color="#26170d" stop-opacity=".5"/></linearGradient>
+  </defs>
+  <path d="M0 0H200L176 24H24Z" fill="url(#grain)"/>
+  <path d="M0 200H200L176 176H24Z" fill="url(#grain)"/>
+  <path d="M0 0V200L24 176V24Z" fill="url(#vertical)"/>
+  <path d="M200 0V200L176 176V24Z" fill="url(#vertical)"/>
+  <path d="M0 0H200V200H0ZM24 24V176H176V24Z" fill="url(#bevel)" fill-rule="evenodd"/>
+  <path d="M3 197V3H197M9 191V9H191" fill="none" stroke="#c99760" stroke-width="1" opacity=".75"/>
+  <path d="M3 197H197V3M9 191H191V9" fill="none" stroke="#3f2718" stroke-width="1.4" opacity=".7"/>
+  <path d="M22 178V22H178V178Z" fill="none" stroke="#3a2519" stroke-width="3"/>
+  <path d="M24 177H177V24" fill="none" stroke="#d6b080" stroke-width="1"/>
+  <path d="M0 0L24 24M200 0L176 24M0 200L24 176M200 200L176 176" stroke="#4d311d" stroke-width=".7" opacity=".7"/>
+</svg>
